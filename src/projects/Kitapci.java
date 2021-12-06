@@ -144,7 +144,7 @@ public class Kitapci {
 		    
 		    count++;
 			
-			System.out.println("\nKitap eklemeye devam etmek için 1\nİşlemi sonlandırmak için 2'yi tuşlayınız.\n");
+			System.out.println("\nKitap eklemeye devam etmek için 1\nİşlemi sonlandırıp menüye dönmek için 2'yi tuşlayınız.\n");
 			karar=scan.nextInt();
 		
 			toplamEklenen++;
