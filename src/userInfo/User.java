@@ -5,6 +5,22 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
 
+/*
+ * 1. filedlarý(encapsulated) id, username, password, active (boolean)  ++++
+ *      signdIn(boolean) olan User isimli bir class create ediniz.******************* ++++
+ * 
+ * 2. bütün fieldleri parametre alan bir const tanýmlayýnýz. ************  ++++
+ * 
+ * 3. UserMain isminde main için bir class create ediniz.     ++++
+ * 4. kullanýcýdan 2 adet user bilgisi isteyerek ArrayList'e atayýnýz.  ++++
+ *      active ve signedIn default olarak true, false atayabilirsiniz.
+ *      id ise sistemden otamatik alýnýz.
+ * 
+ * 5.eðer password 6 karakterden küçükse yeniden kullanýcýdan giriþi
+ * isteyin. 6 karakterden küçük olup olmadýðýný kontrol ediniz.         ++++++
+ * 
+ */
+
 public class User {
 	
 	public Scanner scan=new Scanner(System.in);
@@ -43,26 +59,5 @@ public class User {
     	
     	
     }
-
-	public User(Object username2, Object password2, int id2, boolean active2, boolean signedIn2) {
-		// TODO Auto-generated constructor stub
-	}
-
-	
-		/*
-		 * 1. filedlarý(encapsulated) id, username, password, active (boolean)  ++++
-		 *      signdIn(boolean) olan User isimli bir class create ediniz.******************* ++++
-		 * 
-		 * 2. bütün fieldleri parametre alan bir const tanýmlayýnýz. ************  ++++
-		 * 
-		 * 3. UserMain isminde main için bir class create ediniz.     ++++
-		 * 4. kullanýcýdan 2 adet user bilgisi isteyerek ArrayList'e atayýnýz.  ++++
-		 *      active ve signedIn default olarak true, false atayabilirsiniz.
-		 *      id ise sistemden otamatik alýnýz.
-		 * 
-		 * 5.eðer password 6 karakterden küçükse yeniden kullanýcýdan giriþi
-		 * isteyin. 6 karakterden küçük olup olmadýðýný kontrol ediniz.         ++++++
-		 * 
-		 */
-
+		
 }

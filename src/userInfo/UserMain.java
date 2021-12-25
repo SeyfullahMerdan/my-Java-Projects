@@ -4,14 +4,22 @@ import java.util.Scanner;
 
 public class UserMain {
 
-
+	Scanner scan=new Scanner(System.in);
+	UserMain(String username,String password, int id, boolean active, boolean signedIn){
+		
+	
+	
+		
+		
+	}
+	
+	
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
-		Scanner scan=new Scanner(System.in);
-		
-		User user1=new User(null, null, 0, false, false);
+
+		UserMain user=new UserMain("adý", "soyadý", 0, false, false);
 		
 		
 		
