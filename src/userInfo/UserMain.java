@@ -1,29 +1,18 @@
 package userInfo;
 
-import java.util.Scanner;
-
 public class UserMain {
-
-	Scanner scan=new Scanner(System.in);
-	UserMain(String username,String password, int id, boolean active, boolean signedIn){
-		
-	
-	
-		
-		
-	}
-	
-	
 
 	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 
 
-		UserMain user=new UserMain("adý", "soyadý", 0, false, false);
+		User user=new User ();
 		
-		
-		
-		
+		user.setUsername("Ali");
+		user.setPassword("aaa");
+		user.setActive(false);
+		user.setSignedIn(false);
+		System.out.println( user.getId() + user.getUsername() + user.getPassword() + user.isActive() + user.isSignedIn() );
 		
 	}
 

@@ -16,6 +16,7 @@ public class Market {
     
     
 
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 		
 		/*

@@ -237,6 +237,7 @@ public class Kitapci {
 
 		int no=0;
 	    int karar=0;
+		@SuppressWarnings("unused")
 		int toplamSilinen=0;
 	    int index=0;
 		
@@ -313,10 +314,12 @@ public class Kitapci {
 		Scanner scan=new Scanner(System.in);
 		 
 		 String kitapismi="";
-         String yazarismi="";
+         @SuppressWarnings("unused")
+		String yazarismi="";
          
          int karar5=0;
-         int toplamGörüntülenen=0;
+         @SuppressWarnings("unused")
+		int toplamGörüntülenen=0;
 		 int index5=0;
 		
 		
@@ -397,7 +400,8 @@ public class Kitapci {
           int index2=0;
           int no2=0;
           int karar7=0;
-          int toplamGörüntülenen=0;
+          @SuppressWarnings("unused")
+		int toplamGörüntülenen=0;
 		
 		
 		if (kitapNo.size()<=0) {

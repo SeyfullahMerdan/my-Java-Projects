@@ -27,6 +27,7 @@ public class Otomat {
 	static List <String> urun= new ArrayList<>(Arrays.asList( "Albeni","Halley","Çizi","Cips","Bisküvi","Gofret","Biskrem","Sakýz","Redbull","Cola","Fanta","Ayran","Su","Sprite","Soda" ));
     static List <Double> urunFiyat=new ArrayList<>(Arrays.asList(5.0 , 5.0 , 2.0 , 5.0 , 4.0 , 3.5 , 3.0 , 1.0 , 5.0 , 3.5 , 4.0 , 3.0 , 2.0 , 1.5 , 1.5 ));
 	
+	@SuppressWarnings("resource")
 	public static void main(String[] args) {
 	
 	Scanner scan=new Scanner(System.in);	
